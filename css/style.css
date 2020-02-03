@@ -6,3 +6,6 @@ header{
 	border: 2px solid black;
 	background: red;
 }
+main,footer{
+	border: 2px solid yellow;
+}
