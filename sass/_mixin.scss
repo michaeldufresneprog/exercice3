@@ -1,0 +1,21 @@
+@mixin section-footer-color($backgroundC,$finDivision,$titre,$colorLi) {
+    background-color: $backgroundC;
+    &:after{
+        content: $finDivision;
+    }
+    li{
+        color: $colorLi;
+    }
+    &:before{
+        content: $titre;
+    }
+  }
+@mixin headerLiColor($liColor){
+    color: $liColor;
+}
+@mixin positionLoupe($top,$bottom,$right,$left){
+    top:$top;
+    bottom: $bottom;
+    right: $right;
+    left: $left;
+}
